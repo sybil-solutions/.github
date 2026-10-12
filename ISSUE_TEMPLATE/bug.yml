@@ -1,0 +1,15 @@
+name: Bug
+description: Something does not work as documented
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What happened, description: "What you ran, what you expected, what you got."}
+    validations: {required: true}
+  - type: textarea
+    id: env
+    attributes: {label: Machine, description: "GPU(s), driver, OS, version of the tool.", render: text}
+    validations: {required: true}
+  - type: textarea
+    id: logs
+    attributes: {label: Logs, render: text}

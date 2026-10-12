@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Earn a $50 recipe bounty
+    url: https://github.com/sybil-solutions/local-ai-registry/issues?q=is%3Aissue+is%3Aopen+label%3Abounty
+    about: Open bounties for cards and models without a tested recipe
+  - name: Ask a question
+    url: https://github.com/sybil-solutions/local-ai-registry/discussions
+    about: Questions and ideas go to Discussions
+  - name: Report a security problem
+    url: mailto:sherif@sybilsolutions.ai
+    about: Privately, never in a public issue

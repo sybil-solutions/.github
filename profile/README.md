@@ -18,11 +18,14 @@
 Sybil Solutions builds local-first tooling for running, steering, and using
 self-hosted LLM backends. Everything here assumes you own the box it runs on.
 
-Start with [**local-ai-registry**](https://github.com/sybil-solutions/local-ai-registry)
-— one validated recipe per machine, with the evidence attached. Bring your own
-result through [**local-ai-recipe-kit**](https://github.com/sybil-solutions/local-ai-recipe-kit),
-drive the box with [**local-studio**](https://github.com/sybil-solutions/local-studio)
-or the [**omarchy-local-ai**](https://github.com/sybil-solutions/omarchy-local-ai) plugin.
+| | |
+|---|---|
+| **Run a model on your machine** | [omarchy-local-ai](https://github.com/sybil-solutions/omarchy-local-ai): one button, the model tested on your GPU, your coding agent on it |
+| **Find the model for your card** | [local.sybilsolutions.ai](https://local.sybilsolutions.ai), built from [local-ai-registry](https://github.com/sybil-solutions/local-ai-registry) |
+| **Add a recipe, earn $50** | [Open bounties](https://github.com/sybil-solutions/local-ai-registry/issues?q=is%3Aissue+is%3Aopen+label%3Abounty), run with the [recipe kit](https://github.com/sybil-solutions/local-ai-recipe-kit) · [how bounties work](https://github.com/sybil-solutions/.github/blob/main/BOUNTIES.md) |
+| **See who uses it** | [usage.sybilsolutions.ai](https://usage.sybilsolutions.ai) |
+
+New here? Read [CONTRIBUTING](https://github.com/sybil-solutions/.github/blob/main/CONTRIBUTING.md).
 
 ## Applications and plugins
 

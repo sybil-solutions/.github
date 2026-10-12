@@ -1,0 +1,8 @@
+name: Idea
+description: Something that should exist
+labels: [enhancement]
+body:
+  - type: textarea
+    id: what
+    attributes: {label: What and why}
+    validations: {required: true}
