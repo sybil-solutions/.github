@@ -9,7 +9,7 @@
 [![Website](https://img.shields.io/badge/website-sybilsolutions.ai-1f6feb?style=flat-square&logo=github&logoColor=white)](https://sybilsolutions.ai)
 [![X](https://img.shields.io/badge/@0xsero-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/0xsero)
 [![Email](https://img.shields.io/badge/contact-sherif@sybilsolutions.ai-6c6c6c?style=flat-square&logo=mail&logoColor=white)](mailto:sherif@sybilsolutions.ai)
-[![Repos](https://img.shields.io/badge/repos-21-2a2a2a?style=flat-square)](https://github.com/orgs/sybil-solutions/repositories)
+[![Repos](https://img.shields.io/badge/repos-23-2a2a2a?style=flat-square)](https://github.com/orgs/sybil-solutions/repositories)
 
 </div>
 
@@ -28,11 +28,10 @@ or the [**omarchy-local-ai**](https://github.com/sybil-solutions/omarchy-local-a
 
 | Repository | Language | Stars | Description |
 | --- | --- | ---: | --- |
-| [**local-studio**](https://github.com/sybil-solutions/local-studio) | TypeScript | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-studio?style=flat-square) | Control panel for vLLM, SGLang, llama.cpp, ExLlamaV3 — [localstudio.ai](https://localstudio.ai) |
-| [**omarchy-local-ai**](https://github.com/sybil-solutions/omarchy-local-ai) | Shell | ![stars](https://img.shields.io/github/stars/sybil-solutions/omarchy-local-ai?style=flat-square) | Omarchy plugin: one bar button serves the model validated for your GPU, opens a coding agent on it, shares it on your tailnet |
+| [**local-studio**](https://github.com/sybil-solutions/local-studio) | TypeScript | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-studio?style=flat-square) | Control panel for vLLM, SGLang, llama.cpp, ExLlamaV3 — [localstudio.ai](https://localstudio.ai); website folded into [`site/`](https://github.com/sybil-solutions/local-studio/tree/site/fold-local-studio-site/site) on the integration branch |
+| [**omarchy-local-ai**](https://github.com/sybil-solutions/omarchy-local-ai) | Shell | ![stars](https://img.shields.io/github/stars/sybil-solutions/omarchy-local-ai?style=flat-square) | Omarchy plugin: one bar button serves the model validated for your GPU, opens a coding agent on it, shares it on your tailnet; install counter folded into [`usage/`](https://github.com/sybil-solutions/omarchy-local-ai/tree/main/usage) |
 | [**codex-shim**](https://github.com/sybil-solutions/codex-shim) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/codex-shim?style=flat-square) | Local Responses-API shim exposing Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop |
 | [**ai-data-extraction**](https://github.com/sybil-solutions/ai-data-extraction) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/ai-data-extraction?style=flat-square) | Extract all your personal data history from Cursor, Codex, Claude Code, Windsurf, and Trae |
-| [**local-studio-site**](https://github.com/sybil-solutions/local-studio-site) | TypeScript | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-studio-site?style=flat-square) | Frontend for [localstudio.ai](https://localstudio.ai) |
 
 ## Local AI program
 
@@ -41,14 +40,11 @@ or the [**omarchy-local-ai**](https://github.com/sybil-solutions/omarchy-local-a
 | [**local-ai-registry**](https://github.com/sybil-solutions/local-ai-registry) | HTML | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-registry?style=flat-square) | The model to run on your GPU and exactly how to run it — one validated recipe per machine, with the evidence attached ([local.sybilsolutions.ai](https://local.sybilsolutions.ai)) |
 | [**local-ai-recipe-kit**](https://github.com/sybil-solutions/local-ai-recipe-kit) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-recipe-kit?style=flat-square) | Run a big model on your own GPU, measure it with one protocol, submit the result — intake for registry recipes |
 | [**local-ai-images**](https://github.com/sybil-solutions/local-ai-images) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-images?style=flat-square) | Attested container images pinned by the local-ai registry |
-| [**local-ai-usage**](https://github.com/sybil-solutions/local-ai-usage) | JavaScript | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-usage?style=flat-square) | Install counter for the Local AI Omarchy plugin (Cloudflare Worker + D1) |
 
 ## Serving engines and kernels
 
 | Repository | Language | Stars | Description |
 | --- | --- | ---: | --- |
-| [**exl3xpu**](https://github.com/sybil-solutions/exl3xpu) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/exl3xpu?style=flat-square) | EXL3 (ExLlamaV3 trellis) inference on Intel Arc Battlemage: bit-exact ESIMD kernels as a vLLM XPU plugin |
-| [**sglang-moet**](https://github.com/sybil-solutions/sglang-moet) | Sass | ![stars](https://img.shields.io/github/stars/sybil-solutions/sglang-moet?style=flat-square) | SGLang-native serving for the Moet sign-symmetric W2 expert format with SM120 W2/W4 kernels |
 | [**trellis-serve**](https://github.com/sybil-solutions/trellis-serve) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/trellis-serve?style=flat-square) | EXL3 trellis quantization in stock SGLang and vLLM on RTX 3090 and Intel Arc B70, bit-exact with ExLlamaV3 |
 | [**moetier**](https://github.com/sybil-solutions/moetier) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/moetier?style=flat-square) | Data-first standard for MoE expert placement and scheduling across VRAM, RAM and NVMe (records + core + simulator) |
 
@@ -59,16 +55,25 @@ or the [**omarchy-local-ai**](https://github.com/sybil-solutions/omarchy-local-a
 | [**glm-flash-lite**](https://github.com/sybil-solutions/glm-flash-lite) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/glm-flash-lite?style=flat-square) | GLM-5.3-Flash EXL3 on one 24 GB RTX 3090 + DDR4: elastic GPU expert cache, zero-copy experts, AVX2 CPU tier |
 | [**dsv41-flash-offload**](https://github.com/sybil-solutions/dsv41-flash-offload) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/dsv41-flash-offload?style=flat-square) | DeepSeek-V4.1-Flash EXL3 on one 24 GB RTX 3090 + DDR4 + NVMe: staged-DMA prefill, AVX2 CPU expert tier, Engram on disk |
 | [**deepseek-v4.1-flash-4x-rtx-pro-6000**](https://github.com/sybil-solutions/deepseek-v4.1-flash-4x-rtx-pro-6000) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/deepseek-v4.1-flash-4x-rtx-pro-6000?style=flat-square) | DeepSeek V4.1 Flash on 4× RTX PRO 6000 Blackwell: native weights, DSpark, vision, NVMe or locked-RAM Engram offload |
-| [**qwen38-3090-sglang**](https://github.com/sybil-solutions/qwen38-3090-sglang) | HTML | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen38-3090-sglang?style=flat-square) | Validated SGLang recipe for Qwen3.8-27B (AWQ-INT4 + DSpark) on RTX 3090s — 1×/2×/4× GPU presets, image + video, benchmarks |
-| [**qwen38-flash-next-b70-offload**](https://github.com/sybil-solutions/qwen38-flash-next-b70-offload) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen38-flash-next-b70-offload?style=flat-square) | Qwen3.8-Flash-Next on one Intel Arc Pro B70 with experts on NVMe and 32 GB host RAM: SGLang + exl3xpu tier, staged NVMe prefill |
-| [**qwen38-b70**](https://github.com/sybil-solutions/qwen38-b70) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen38-b70?style=flat-square) | One-command Qwen3.8-27B on two Intel Arc Pro B70 GPUs: tensor-parallel llama.cpp (SYCL), 262k context, OpenAI-compatible API |
-| [**qwen36-b70**](https://github.com/sybil-solutions/qwen36-b70) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen36-b70?style=flat-square) | Qwen3.6-35B-A3B on Intel Arc B70 + RTX 3090: SGLang XPU, EXL3, configs, benchmarks |
+| [**qwen-serve**](https://github.com/sybil-solutions/qwen-serve) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen-serve?style=flat-square) | Renamed from `qwen38-3090-sglang`; Qwen serving recipes organized with one folder per model and instance, including RTX 3090 SGLang and Intel Arc B70 configurations |
+| [**qwen38-flash-next-3090-usb-offload**](https://github.com/sybil-solutions/qwen38-flash-next-3090-usb-offload) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen38-flash-next-3090-usb-offload?style=flat-square) | Qwen3.8-Flash-Next EXL3 3bpw on one RTX 3090 over USB plus a Mac mini M4: patches, shim, kernels, results |
 
-## Research
+## Archived repositories
+
+Historical repositories retained for reference; use the active projects above.
+`local-studio-site` is superseded by `local-studio/site/` on the integration
+branch, but its GitHub archive flag is not yet set.
 
 | Repository | Language | Stars | Description |
 | --- | --- | ---: | --- |
-| [**framework-research**](https://github.com/sybil-solutions/framework-research) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/framework-research?style=flat-square) | Research artifacts: pushing LLM inference on Strix Halo (Framework Desktop) + RTX 3090 via llama.cpp RPC — 34 missions |
+| [**exl3xpu**](https://github.com/sybil-solutions/exl3xpu) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/exl3xpu?style=flat-square) | Archived EXL3 inference on Intel Arc Battlemage: bit-exact ESIMD kernels as a vLLM XPU plugin |
+| [**framework-research**](https://github.com/sybil-solutions/framework-research) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/framework-research?style=flat-square) | Archived research artifacts: Strix Halo (Framework Desktop) + RTX 3090 via llama.cpp RPC — 34 missions |
+| [**sglang-moet**](https://github.com/sybil-solutions/sglang-moet) | Sass | ![stars](https://img.shields.io/github/stars/sybil-solutions/sglang-moet?style=flat-square) | Archived SGLang-native serving for the Moet sign-symmetric W2 expert format with SM120 W2/W4 kernels |
+| [**local-ai-usage**](https://github.com/sybil-solutions/local-ai-usage) | JavaScript | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-usage?style=flat-square) | Install counter folded into `omarchy-local-ai/usage/` |
+| [**local-studio-site**](https://github.com/sybil-solutions/local-studio-site) | TypeScript | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-studio-site?style=flat-square) | Website folded into `local-studio/site/` on the integration branch; superseded standalone repository |
+| [**qwen36-b70**](https://github.com/sybil-solutions/qwen36-b70) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen36-b70?style=flat-square) | Qwen3.6-35B-A3B on Intel Arc B70 + RTX 3090; consolidated into `qwen-serve/qwen3.6/b70/` |
+| [**qwen38-b70**](https://github.com/sybil-solutions/qwen38-b70) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen38-b70?style=flat-square) | Qwen3.8-27B on Intel Arc Pro B70; consolidated into `qwen-serve/qwen3.8/b70/` |
+| [**qwen38-flash-next-b70-offload**](https://github.com/sybil-solutions/qwen38-flash-next-b70-offload) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/qwen38-flash-next-b70-offload?style=flat-square) | Qwen3.8-Flash-Next with NVMe expert offload on Intel Arc Pro B70; consolidated into `qwen-serve/qwen3.8-flash-next/b70-offload/` |
 
 ## Focus areas
 
