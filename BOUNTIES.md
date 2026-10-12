@@ -14,16 +14,16 @@ Some cards and models have no tested recipe yet. Each open bounty pays **$50** f
 3. **Make the recipe.** In [local-ai-registry](https://github.com/sybil-solutions/local-ai-registry), run
    `python3 lab/lab.py try <repo>@<commit> --model <id> --engine <profile> --card <card> --on endpoint --endpoint <your server>`.
    It writes the recipe only if all six checks pass (loads, answers, thinks, calls a tool, recalls at a nearly full context, 15 tok/s or more).
-4. **Open one PR** to the registry with the recipe, `Closes #<bounty>` in the description, and the kit submission file attached
-   (or linked from a kit PR).
+4. **Open one PR** to the registry with the recipe, `Closes #<bounty number>` in the description, and the kit submission file
+   attached (or linked from a kit PR).
 
 ## When it pays
 
 - The PR is merged with **all six checks passing** on the bounty's card, at the context the bounty names or more.
 - For a card we can rent, a maintainer reproduces the run before merge. For one we cannot, the submission must include the
   `memwatch` log and `probe.py` output from your machine.
-- Payment goes out within 7 days of merge, to the account you name in the PR (PayPal, GitHub Sponsors, or the bounty platform
-  the issue shows).
+- After merge, email sherif@sybilsolutions.ai with the PR link and how you want to be paid (PayPal or GitHub Sponsors).
+  Payment goes out within 7 days. Never put payment details in a PR or issue.
 
 ## What does not pay
 
