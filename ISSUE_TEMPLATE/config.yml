@@ -1,5 +1,11 @@
 blank_issues_enabled: false
 contact_links:
+  - name: A problem with the Local AI panel
+    url: https://github.com/sybil-solutions/omarchy-local-ai/issues/new/choose
+    about: Panel, setup, models that won't start, agents; report it on the plugin even if an engine is the cause
+  - name: My card or model isn't supported
+    url: https://github.com/sybil-solutions/local-ai-registry/issues/new/choose
+    about: Card and recipe requests go to the registry
   - name: Earn a $50 recipe bounty
     url: https://github.com/sybil-solutions/local-ai-registry/issues?q=is%3Aissue+is%3Aopen+label%3Abounty
     about: Open bounties for cards and models without a tested recipe
