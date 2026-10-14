@@ -22,8 +22,18 @@ Some cards and models have no tested recipe yet. Each open bounty pays **$50** f
 - The PR is merged with **all six checks passing** on the bounty's card, at the context the bounty names or more.
 - For a card we can rent, a maintainer reproduces the run before merge. For one we cannot, the submission must include the
   `memwatch` log and `probe.py` output from your machine.
+- **One payout per person per device.** A bounty pays once, to one person, and nobody is paid twice for the same card.
 - After merge, email sherif@sybilsolutions.ai with the PR link and how you want to be paid (PayPal or GitHub Sponsors).
-  Payment goes out within 7 days. Never put payment details in a PR or issue.
+  Never put payment details in a PR or issue.
+
+## When you get paid
+
+- Bounties merged in a month are paid together in the **first week of the next month**: October's in the first week of
+  November, and so on.
+- Payouts are capped at **$1,000 a month**. Once a month's accepted bounties reach it, further bounty PRs that pass wait
+  and are merged, in the order they were opened, in the next month, which also sets when they are paid.
+- Claims, submissions and what was accepted are tracked in the public
+  [bounty ledger](https://github.com/sybil-solutions/local-ai-registry/issues/262).
 
 ## What does not pay
 
