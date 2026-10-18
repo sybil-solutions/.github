@@ -39,7 +39,8 @@ Some cards and models have no tested recipe yet. Each open bounty pays **$50** f
 ## What does not pay
 
 Reported or estimated numbers, runs with output caps or changed clocks, a different card than the bounty names, or a PR
-opened while someone else holds the claim. Failures are still useful: open a registry PR with the submission file alone
-and say what did not fit in its `notes`.
+opened while someone else holds the claim. Failures are still useful: a measured run with no recipe goes to the registry
+as the submission file alone; a run that never got to the panel and sweep goes on the bounty issue with the `probe.py`
+output and what failed.
 
 Maintainers may close a bounty that is no longer needed; a claim in progress is honoured.
