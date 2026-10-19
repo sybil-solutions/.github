@@ -10,12 +10,13 @@ Some cards and models have no tested recipe yet. Each open bounty pays **$50** f
    bounty opens again. One claimant at a time.
 2. **Run it on your card.** Clone the [recipe kit](https://github.com/sybil-solutions/local-ai-recipe-kit) on the machine, open your
    coding agent in it and give it [`PROMPT.md`](https://github.com/sybil-solutions/local-ai-recipe-kit/blob/main/PROMPT.md). It
-   downloads pinned weights, runs the quality and speed protocol, and writes a submission file.
+   downloads pinned weights, runs the quality and speed protocol, and writes a submission file into your clone of the
+   registry under `data/sources/recipe-kit/<card id>/`.
 3. **Make the recipe.** In [local-ai-registry](https://github.com/sybil-solutions/local-ai-registry), run
    `python3 lab/lab.py try <repo>@<commit> --model <id> --engine <profile> --card <card> --on endpoint --endpoint <your server>`.
    It writes the recipe only if all six checks pass (loads, answers, thinks, calls a tool, recalls at a nearly full context, 15 tok/s or more).
-4. **Open one PR** to the registry with the recipe, `Closes #<bounty number>` in the description, and the kit submission file
-   attached (or linked from a kit PR).
+4. **Open one PR** to the registry with the recipe, the kit submission file under `data/sources/recipe-kit/<card id>/`,
+   and `Closes #<bounty number>` in the description.
 
 ## When it pays
 
@@ -38,6 +39,8 @@ Some cards and models have no tested recipe yet. Each open bounty pays **$50** f
 ## What does not pay
 
 Reported or estimated numbers, runs with output caps or changed clocks, a different card than the bounty names, or a PR
-opened while someone else holds the claim. Failures are still useful: open a kit PR saying what did not fit.
+opened while someone else holds the claim. Failures are still useful: a measured run with no recipe goes to the registry
+as the submission file alone; a run that never got to the panel and sweep goes on the bounty issue with the `probe.py`
+output and what failed.
 
 Maintainers may close a bounty that is no longer needed; a claim in progress is honoured.

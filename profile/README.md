@@ -41,7 +41,7 @@ New here? Read [CONTRIBUTING](https://github.com/sybil-solutions/.github/blob/ma
 | Repository | Language | Stars | Description |
 | --- | --- | ---: | --- |
 | [**local-ai-registry**](https://github.com/sybil-solutions/local-ai-registry) | HTML | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-registry?style=flat-square) | The model to run on your GPU and exactly how to run it — one validated recipe per machine, with the evidence attached ([local.sybilsolutions.ai](https://local.sybilsolutions.ai)) |
-| [**local-ai-recipe-kit**](https://github.com/sybil-solutions/local-ai-recipe-kit) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-recipe-kit?style=flat-square) | Run a big model on your own GPU, measure it with one protocol, submit the result — intake for registry recipes |
+| [**local-ai-recipe-kit**](https://github.com/sybil-solutions/local-ai-recipe-kit) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-recipe-kit?style=flat-square) | Run a big model on your own GPU and measure it with one protocol; the result goes to the registry as a recipe's evidence |
 | [**local-ai-images**](https://github.com/sybil-solutions/local-ai-images) | Python | ![stars](https://img.shields.io/github/stars/sybil-solutions/local-ai-images?style=flat-square) | Attested container images pinned by the local-ai registry |
 
 ## Serving engines and kernels

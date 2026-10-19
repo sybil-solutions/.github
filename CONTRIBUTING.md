@@ -20,7 +20,7 @@ Open recipe bounties pay **$50** each. Read [BOUNTIES.md](BOUNTIES.md), then pic
 ## Rules for every pull request
 
 1. **One change per PR.** A recipe, a fix, or a doc change: not all three.
-2. **CI must pass.** Run the repo's check locally first (`make check` in the registry, `python3 tools/validate.py` in the kit).
+2. **CI must pass.** Run the repo's check locally first (`make check` in the registry; for a kit submission file, also the kit's `python3 tools/validate.py <file>`).
 3. **Measured numbers only.** No estimates, no output-length caps, no power or clock changes. Every number comes from the protocol.
 4. **You ran it.** Using a coding agent is welcome; submitting results you did not run on real hardware is not.
 5. **Pins stay pinned.** Weights at an exact commit, images by digest. Never `latest`.
